@@ -1,7 +1,7 @@
 // Javascript
 $(function () {
   var currentDate = new Date();
-  const engageDate = new Date("June 17, 2023 06:00:00");
+  const engageDate = new Date("June 17, 2023 13:30:00");
   const finalDate = engageDate.getTime() - currentDate.getTime();
 
   //  $('.countdown').countdown("yyyy/MM/dd/hh:mm:ss", function(event)
